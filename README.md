@@ -1,6 +1,4 @@
-## thinkwei's blog
-
-####个人简介
+＃＃ 关于me
 
 职业：PHP开发工程师
 
