@@ -11,7 +11,7 @@ webrick:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
 email: "1011692813@qq.com"
-github: "https://github.com/Githubxinwei"
+github: "githubxinwei/"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
 statement: "Designed by thinkwei, All Rights Reserved"
