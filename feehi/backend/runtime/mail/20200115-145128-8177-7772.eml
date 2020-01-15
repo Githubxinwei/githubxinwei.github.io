@@ -1,0 +1,340 @@
+Message-ID: <7ce6ece53be0254da1304924dc76370f@localhost>
+Date: Wed, 15 Jan 2020 14:51:28 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= Feehi CMS
+ =?UTF-8?Q?=E5=90=8E=E5=8F=B0=E7=9A=84=E6=96=B0?=
+ =?UTF-8?Q?=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-01-15 14:51:28 [::1][-][-][error][yii\db\Exception] exception
+'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for
+user 'root'@'localhost' (using password: NO)' in
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\Connection.php:687
+Stack trace:
+#0
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\Connection.php(687):
+PDO->__construct('mysql:host=3Dloca...', 'root', '', NULL)
+#1
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\Connection.php(613):
+yii\db\Connection->createPdoInstance()
+#2
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\Connection.php(996):
+yii\db\Connection->open()
+#3
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\Connection.php(983):
+yii\db\Connection->getMasterPdo()
+#4
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\mysql\QueryBuilder.php(380):
+yii\db\Connection->getSlavePdo()
+#5
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\mysql\QueryBuilder.php(399):
+yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\mysql\QueryBuilder.php(57):
+yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\base\BaseObject.php(109):
+yii\db\mysql\QueryBuilder->init()
+#8
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\QueryBuilder.php(116):
+yii\base\BaseObject->__construct('[]')
+#9
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\mysql\Schema.php(217):
+yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\Schema.php(249):
+yii\db\mysql\Schema->createQueryBuilder()
+#11
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\db\Connection.php(836):
+yii\db\Schema->getQueryBuilder()
+#12
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\ActiveQuery.php(328):
+yii\db\Connection->getQueryBuilder()
+#13
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\Query.php(237):
+yii\db\ActiveQuery->createCommand('<span class=3D"ke...')
+#14
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\ActiveQuery.php(133):
+yii\db\Query->all('<span class=3D"ke...')
+#15
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\feehi\com=
+ponents\Feehi.php(48):
+yii\db\ActiveQuery->all()
+#16
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\base\BaseObject.php(109):
+feehi\components\Feehi->init()
+#17 [internal function]: yii\base\BaseObject->__construct('[]')
+#18
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\di\Container.php(376):
+ReflectionClass->newInstanceArgs('[[]]')
+#19
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\di\Container.php(156):
+yii\di\Container->build('<span class=3D"st...', '[]', '[]')
+#20
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\BaseYii.php(349):
+yii\di\Container->get('<span class=3D"st...', '[]', '[]')
+#21
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\di\ServiceLocator.php(137):
+yii\BaseYii::createObject('[<span class=3D"s...')
+#22
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\base\Module.php(742):
+yii\di\ServiceLocator->get('<span class=3D"st...', '<span class=3D"ke...')
+#23
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\di\ServiceLocator.php(74):
+yii\base\Module->get('<span class=3D"st...')
+#24
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\feehi\com=
+ponents\Feehi.php(67):
+yii\di\ServiceLocator->__get('<span class=3D"st...')
+#25
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\feehi\comp=
+onents\Feehi.php(164):
+feehi\components\Feehi::configInit()
+#26 [internal function]:
+feehi\components\Feehi::backendInit(Object(yii\base\Event))
+#27
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\base\Component.php(627):
+call_user_func('[<span class=3D"s...', Object(yii\base\Event))
+#28
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\base\Application.php(383):
+yii\base\Component->trigger('<span class=3D"st...')
+#29
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\backend\w=
+eb\index.php(17):
+yii\base\Application->run()
+#30 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045]
+Access denied for user 'root'@'localhost' (using password: NO)' in
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\Connection.php:624
+Stack trace:
+#0
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\db\Connection.php(996):
+yii\db\Connection->open()
+#1
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\Connection.php(983):
+yii\db\Connection->getMasterPdo()
+#2
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\mysql\QueryBuilder.php(380):
+yii\db\Connection->getSlavePdo()
+#3
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\mysql\QueryBuilder.php(399):
+yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\mysql\QueryBuilder.php(57):
+yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\base\BaseObject.php(109):
+yii\db\mysql\QueryBuilder->init()
+#6
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\QueryBuilder.php(116):
+yii\base\BaseObject->__construct('[]')
+#7
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\mysql\Schema.php(217):
+yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\Schema.php(249):
+yii\db\mysql\Schema->createQueryBuilder()
+#9
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\Connection.php(836):
+yii\db\Schema->getQueryBuilder()
+#10
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\ActiveQuery.php(328):
+yii\db\Connection->getQueryBuilder()
+#11
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\db\Query.php(237):
+yii\db\ActiveQuery->createCommand('<span class=3D"ke...')
+#12
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\db\ActiveQuery.php(133):
+yii\db\Query->all('<span class=3D"ke...')
+#13
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\feehi\com=
+ponents\Feehi.php(48):
+yii\db\ActiveQuery->all()
+#14
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\base\BaseObject.php(109):
+feehi\components\Feehi->init()
+#15 [internal function]: yii\base\BaseObject->__construct('[]')
+#16
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\di\Container.php(376):
+ReflectionClass->newInstanceArgs('[[]]')
+#17
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\di\Container.php(156):
+yii\di\Container->build('<span class=3D"st...', '[]', '[]')
+#18
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\BaseYii.php(349):
+yii\di\Container->get('<span class=3D"st...', '[]', '[]')
+#19
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\di\ServiceLocator.php(137):
+yii\BaseYii::createObject('[<span class=3D"s...')
+#20
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yiis=
+oft\yii2\base\Module.php(742):
+yii\di\ServiceLocator->get('<span class=3D"st...', '<span class=3D"ke...')
+#21
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yii=
+soft\yii2\di\ServiceLocator.php(74):
+yii\base\Module->get('<span class=3D"st...')
+#22
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\feehi\com=
+ponents\Feehi.php(67):
+yii\di\ServiceLocator->__get('<span class=3D"st...')
+#23
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\feehi\comp=
+onents\Feehi.php(164):
+feehi\components\Feehi::configInit()
+#24 [internal function]:
+feehi\components\Feehi::backendInit(Object(yii\base\Event))
+#25
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\base\Component.php(627):
+call_user_func('[<span class=3D"s...', Object(yii\base\Event))
+#26
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\vendor\yi=
+isoft\yii2\base\Application.php(383):
+yii\base\Component->trigger('<span class=3D"st...')
+#27
+D:\phpStudy\PHPTutorial\WWW\github\githubxinwei.github.io\feehi\backend\w=
+eb\index.php(17):
+yii\base\Application->run()
+#28 {main}
+Additional Information:
+
+2020-01-15 14:51:26 [::1][-][-][info][application] $_GET =3D []
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'PHPSESSID' =3D> '5vs9pl11sft1suob124nf4lu84'
+    'Hm_lpvt_6ae4b9f36403e89f85f2c64ee9209a5c' =3D> '1573199554'
+    'pgv_pvi' =3D> '1240346624'
+    'pgv_si' =3D> 's736120832'
+]
+
+$_SERVER =3D [
+    'PATH' =3D> 'C:\\Program Files (x86)\\NetSarang\\Xshell
+6\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windo=
+ws\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program
+Files\\VisualSVN Server\\bin;C:\\Program
+Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.3.5;C:\\ProgramData\\Com=
+poserSetup\\bin;C:\\Program
+Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL
+Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL
+Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL
+Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL
+Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files
+(x86)\\Microsoft Visual Studio
+9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files
+(x86)\\Microsoft SQL
+Server\\100\\DTS\\Binn\\;C:\\windows\\system32\\config\\systemprofile\\.d=
+nx\\bin;C:\\Program
+Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL
+Server\\130\\Tools\\Binn\\;D:\\Go\\bin;C:\\MinGW\\bin;C:\\Users\\Administra=
+tor\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\A=
+ppData\\Roaming\\npm;D:\\wamp\\bin\\mysql\\mysql5.5.8\\bin;D:\\wamp\\bin=
+\\php\\php5.6.31;C:\\Users\\Administrator\\go\\bin'
+    'SYSTEMROOT' =3D> 'C:\\windows'
+    'COMSPEC' =3D> 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' =3D> '1000'
+    'PHPRC' =3D> 'D:/phpStudy/PHPTutorial/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' =3D> '1916'
+    'SCRIPT_NAME' =3D>
+'/github/githubxinwei.github.io/feehi/backend/web/index.php'
+    'REQUEST_URI' =3D>
+'/github/githubxinwei.github.io/feehi/backend/web/'
+    'QUERY_STRING' =3D> ''
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '55111'
+    'SCRIPT_FILENAME' =3D>
+'D:/phpStudy/PHPTutorial/WWW/github/githubxinwei.github.io/feehi/backend/=
+web/index.php'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/phpStudy/PHPTutorial/WWW'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> 'D:/phpStudy/PHPTutorial/WWW'
+    'REMOTE_ADDR' =3D> '::1'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '::1'
+    'SERVER_NAME' =3D> 'localhost'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j
+mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' =3D> ''
+    'SystemRoot' =3D> 'C:\\windows'
+    'HTTP_COOKIE' =3D> 'PHPSESSID=3D5vs9pl11sft1suob124nf4lu84;
+Hm_lpvt_6ae4b9f36403e89f85f2c64ee9209a5c=3D1573199554;
+pgv_pvi=3D1240346624; pgv_si=3Ds736120832'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_SITE' =3D> 'none'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,imag=
+e/apng,*/*;q=3D0.8,application/signed-exchange;v=3Db3'
+    'HTTP_SEC_FETCH_USER' =3D> '?1'
+    'HTTP_SEC_FETCH_MODE' =3D> 'navigate'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132
+Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNECTION' =3D> 'close'
+    'HTTP_HOST' =3D> 'localhost'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D>
+'/github/githubxinwei.github.io/feehi/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1579071086.3337
+    'REQUEST_TIME' =3D> 1579071086
+]
