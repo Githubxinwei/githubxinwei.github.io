@@ -1,16 +1,9 @@
-## About me
+# HuxBlog Boilerplate
 
-网名：thinkwei
+##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
 
-职业：PHP开发工程师
+#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
 
-学历：本科
+#### [View Live Hux Blog &rarr;](http://huangxuan.me)
 
-毕业院校：商丘师范学院（2012-2016）
-
-公司：河南宇通信息技术有限公司
-
-电话：183-3876-6459
-
-居住地：郑州
-
+## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
