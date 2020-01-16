@@ -1,4 +1,4 @@
-## The Resume of thinkwei
+## The resume of thinkwei
 
 网名：thinkwei
 
