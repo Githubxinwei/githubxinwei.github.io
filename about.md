@@ -1,11 +1,20 @@
----
-layout: page
-title: "About"
-description: "你的博客描述 " 
-header-img: "img/green.jpg"
----
+## About me
 
-这一页填写你的自我介绍。
+网名：thinkwei
+
+职业：PHP开发工程师
+
+学历：本科
+
+毕业院校：商丘师范学院（2012-2016）
+
+公司：河南宇通信息技术有限公司
+
+电话：183-3876-6459
+
+居住地：郑州
+
+
 
 
 
