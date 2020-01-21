@@ -1,6 +1,6 @@
 # Site settings
 title: thinkwei's blog # 你的博客名字，可以定义修订
-header-img: "img/green.jpg"
+header-img: "img/thinkwei.jpg"
 tagline: "cn"  
 description: "Nothing in the world can take the place of persistence！"  # 一句话描述你的博客
 baseurl: ""
@@ -18,10 +18,10 @@ favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
-github_username: 
+github_username: githubxinwei
 facebook_username: 
-weibo_username: 
-zhihu_username: 
+weibo_username: 辛辛超群
+zhihu_username: 特立独行的boy
 
 # Build settings  
 # use Github Flavored Markdown !important  
