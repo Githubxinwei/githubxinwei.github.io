@@ -1,4 +1,9 @@
-## About me
+---
+layout: page
+title: "About me"
+description: "个人简介"
+header-img: "img/bjd.jpg"
+---
 
 网名：thinkwei
 
