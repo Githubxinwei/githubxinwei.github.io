@@ -21,7 +21,7 @@ twitter_username:
 github_username: githubxinwei
 facebook_username: 
 weibo_username: 辛辛超群
-zhihu_username: 特立独行的boy
+zhihu_username: thinkwei
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "thinkwei" # 你的名字
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/thinkwei.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
