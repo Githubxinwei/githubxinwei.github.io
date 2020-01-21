@@ -5,7 +5,7 @@ description: "The resume of thinkwei"
 header-img: "img/bjd.jpg"
 ---
 <tr>
-<td>网名：thinkwei</td>             <td/>职业：PHP开发工程师</td>
+<td>网名：thinkwei</td>             <td>职业：PHP开发工程师</td>
 </tr>
 学历：本科                 毕业院校：商丘师范学院（2012-2016）
 
