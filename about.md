@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "The resume of thinkwei"
-description: "thinkwei的简历"
+title: "About"
+description: "The resume of thinkwei"
 header-img: "img/bjd.jpg"
 ---
 
