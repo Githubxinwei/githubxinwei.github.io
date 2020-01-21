@@ -4,9 +4,9 @@ title: "About"
 description: "The resume of thinkwei"
 header-img: "img/bjd.jpg"
 ---
-
-网名：thinkwei             职业：PHP开发工程师
-
+<tr>
+<td>网名：thinkwei</td>             <td/>职业：PHP开发工程师</td>
+</tr>
 学历：本科                 毕业院校：商丘师范学院（2012-2016）
 
 电话：183-3876-6459        公司：河南宇通信息技术有限公司
