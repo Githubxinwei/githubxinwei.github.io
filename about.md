@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About me"
-description: "个人简介"
+title: "The resume of thinkwei"
+description: "thinkwei的简历"
 header-img: "img/bjd.jpg"
 ---
 
@@ -17,7 +17,15 @@ header-img: "img/bjd.jpg"
 
 电话：183-3876-6459
 
+出生地：商丘
+
 居住地：郑州
+
+熟悉语言：php、html、div+css、jquery、javascript、easyui、linux
+
+熟悉数据库：mysql、mssql
+
+版本控制：git、svn
 
 
 
