@@ -23,6 +23,8 @@ header-img: "img/bjd.jpg"
 
 熟悉语言：php、html、div+css、jquery、javascript、easyui、linux
 
+熟悉框架：thinkphp5、yii2
+
 熟悉数据库：mysql、mssql
 
 版本控制：git、svn
