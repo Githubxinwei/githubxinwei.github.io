@@ -16,15 +16,15 @@
 	<td>居住地：郑州</td>  
 </tr>
 <tr>
-	<td>熟悉语言：php、html、div+css、jquery、javascript、easyui、linux</td>
+	<td colspan="2">熟悉语言：php、html、div+css、jquery、javascript、easyui、linux</td>
 </tr>
 <tr>
-	<td>熟悉框架：thinkphp5、yii2</td>
+	<td colspan="2">熟悉框架：thinkphp5、yii2</td>
 </tr>
 <tr>
-	<td>熟悉数据库：mysql、mssql</td>
+	<td colspan="2">熟悉数据库：mysql、mssql</td>
 </tr>
 <tr>
-	<td>版本控制：git、svn</td>
+	<td colspan="2">版本控制：git、svn</td>
 </tr>
 </table>
