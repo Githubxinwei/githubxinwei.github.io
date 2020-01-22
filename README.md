@@ -1,23 +1,30 @@
-## 说明
-
-此博客模板 Fork 自仓库：[cnfeat/blog.io: 简单直接可用博客模板](https://github.com/cnfeat/blog.io)
-
-配套说用说明：[如何搭建一个独立博客——简明 GitHub Pages与 jekyll 教程 - 读立写生](http://www.cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)
-
-## 博客模板修订清单
-
-文档内有详细注释，可按注释逐个修订
-
-* 博客名字、作者信息、浏览器小图标等：_config.yml 
-* 个人介绍页面：about.md
-* 代表作页面：milestone.md
-* 文章模板：blog.io/_posts/2015-03-02-how-to-write.md 
-* 
-
-## 模板作者
-
-陈素封，博客：独立写生：[cnfeat.com](cnfeat.com)
-
-联系方式：cnfeat@gmail.com
-
-
+<table>
+<tr>
+	<td>网名：thinkwei</td>             
+	<td>职业：PHP开发工程师</td>
+</tr>
+<tr>
+	<td>学历：本科</td>
+	<td>毕业院校：商丘师范学院（2012-2016）</td>
+</tr>
+<tr>
+	<td>电话：183-3876-6459</td>        
+	<td>公司：河南宇通信息技术有限公司</td>  
+</tr>
+<tr>
+	<td>出生地：商丘</td>               
+	<td>居住地：郑州</td>  
+</tr>
+<tr>
+	<td>熟悉语言：php、html、div+css、jquery、javascript、easyui、linux</td>
+</tr>
+<tr>
+	<td>熟悉框架：thinkphp5、yii2</td>
+</tr>
+<tr>
+	<td>熟悉数据库：mysql、mssql</td>
+</tr>
+<tr>
+	<td>版本控制：git、svn</td>
+</tr>
+</table>
