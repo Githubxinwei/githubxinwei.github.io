@@ -16,10 +16,7 @@ owner:
 gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
-douban_username:  # 你的豆瓣id
-twitter_username: 
 github_username: githubxinwei
-facebook_username: 
 weibo_username: 3944733010
 zhihu_username: thinkwei-47
 sifou_username: thinkwei
