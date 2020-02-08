@@ -18,8 +18,8 @@ favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 github_username: githubxinwei
 weibo_username: 3944733010
-zhihu_username: thinkwei-47
-sifou_username: thinkwei
+#zhihu_username: thinkwei-47
+#sifou_username: thinkwei
 
 # Build settings  
 # use Github Flavored Markdown !important  
