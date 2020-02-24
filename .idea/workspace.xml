@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57d7082-4dee-4a7b-ae35-415c969099d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-02-24-downGitExe.md.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-24-downGitExe.md.php" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-24-downGitExe.md.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="2020-02-24-downGitExe.md.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2020-02-24-downGitExe.md.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="56">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -185,12 +184,12 @@
       <workItem from="1581149879345" duration="2897000" />
       <workItem from="1581240087177" duration="2848000" />
       <workItem from="1582539571259" duration="15000" />
-      <workItem from="1582539612384" duration="3311000" />
+      <workItem from="1582539612384" duration="3442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36626000" />
+    <option name="totallyTimeSpent" value="36757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -605,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-24-downGitExe.md.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="56">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>

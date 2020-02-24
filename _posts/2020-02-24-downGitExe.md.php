@@ -1,12 +1,6 @@
-/**
- * Created by PhpStorm.
- * User: Xin Wei
- * Date: 2020/2/24
- * Time: 20:26
- */
 ---
 layout: post
-title: git.exe下载
+title: git.exe for Windows 国内下载站
 date: 2020-02-24
 categories: git
 tags: [git]
