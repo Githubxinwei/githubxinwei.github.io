@@ -10,5 +10,5 @@ description: 网页表格分页。
 page-break-before: auto;page-break-after: always;
 可以影响到分页。如果我们只想打印指定区域，我们可以
 使用$("div#myPrintArea").printArea();这种方式来打印，
-就是这么简单，哈哈。
+来打印指定区域id的内容，就是这么简单，哈哈。
 
