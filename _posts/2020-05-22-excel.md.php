@@ -8,7 +8,7 @@ description: php导出复杂列的excel
 ---
 <table>
     <tr>
-        <td>需要导出的表格如下：</td>
+        <td>需要导出的表格如上：</td>
         <img src="./../../../../../img/excel.jpg" />
     </tr>
     <tr>
