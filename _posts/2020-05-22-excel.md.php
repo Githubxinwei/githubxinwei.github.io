@@ -6,10 +6,10 @@ categories: excel
 tags: [excel]
 description: php导出复杂列的excel
 ---
-> 需要导出的表格如下：
+需要导出的表格如下：
 <img src="./../../../../../img/excel.jpg" />
-> //前台处理
-> document.getElementById("a_export").onclick=function(){
+//前台处理
+document.getElementById("a_export").onclick=function(){
     $("#LoadingPark").show();
     document.getElementById("does").value="exportPartyCarChangeAnalyse";
     document.frmAdd.action = cmdurl;
