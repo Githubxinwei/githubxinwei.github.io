@@ -6,9 +6,8 @@ categories: excel
 tags: [excel]
 description: php导出复杂列的excel
 ---
-需要导出的表格如下：
+##### 需要导出的表格如下：
 <img src="./../../../../../img/excel.jpg" />
-```
 //前台处理
 document.getElementById("a_export").onclick=function(){
     $("#LoadingPark").show();
@@ -18,7 +17,7 @@ document.getElementById("a_export").onclick=function(){
     $("#LoadingPark").hide();
     return false;
 }
-//后台处理
+##### //后台处理
 第一步：需要引用PHPExcel.php文件
 require_once dirname(__FILE__) . '/Classes/PHPExcel.php';
 第二步：接收数据，合并单元格，导出表格。
@@ -612,4 +611,3 @@ header('Cache-Control:max-age=0');
 $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
 $objWriter->save( 'php://output');
 exit;
-```
