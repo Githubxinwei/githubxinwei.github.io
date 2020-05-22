@@ -8,6 +8,7 @@ description: php导出复杂列的excel
 ---
 需要导出的表格如下：
 <img src="./../../../../../img/excel.jpg" />
+```
 //前台处理
 document.getElementById("a_export").onclick=function(){
     $("#LoadingPark").show();
@@ -611,3 +612,4 @@ header('Cache-Control:max-age=0');
 $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
 $objWriter->save( 'php://output');
 exit;
+```
