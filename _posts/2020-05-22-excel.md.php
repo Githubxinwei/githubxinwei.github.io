@@ -9,7 +9,7 @@ description: php导出复杂列的excel
 <table>
     <tr>
         <td>需要导出的表格如下：</td>
-        <td><img src="./../../../../../img/excel.jpg" /></td>
+        <img src="./../../../../../img/excel.jpg" />
     </tr>
     <tr>
         <td>
