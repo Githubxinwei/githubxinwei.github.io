@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57d7082-4dee-4a7b-ae35-415c969099d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-01-07-redis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/redis.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-01-07-redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-07-redis.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2021-01-07-redis.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="548">
-                <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+              <first_editor relative-caret-position="492">
+                <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-05-22-excel.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="52" />
+              <first_editor relative-caret-position="280">
+                <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -252,12 +250,12 @@
       <workItem from="1587443234628" duration="2177000" />
       <workItem from="1587615803175" duration="1760000" />
       <workItem from="1601454246374" duration="647000" />
-      <workItem from="1610012266838" duration="712000" />
+      <workItem from="1610012266838" duration="1153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47990000" />
+    <option name="totallyTimeSpent" value="48431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -686,8 +684,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-22-excel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="52" />
+          <first_editor relative-caret-position="280">
+            <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
@@ -696,8 +694,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2021-01-07-redis.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="548">
-            <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <first_editor relative-caret-position="492">
+            <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
