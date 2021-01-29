@@ -8,9 +8,9 @@ url: "https://thinkwei.cn"  # 此处填写你的博客地址
 
 # About/contact
 owner: 
-  name: "thinkwei" # 填写作者信息：名字
-  email: 1011692813@qq.com # 填写作者信息：邮箱
-  bio: "php" # 填写作者信息：博客描述
+name: "thinkwei" # 填写作者信息：名字
+email: 1011692813@qq.com # 填写作者信息：邮箱
+bio: "php" # 填写作者信息：博客描述
 
 # Data
 gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
@@ -59,3 +59,8 @@ google_verify:
 bing_verify:
 
 # Links to include in footer navigation
+font:
+  global:
+    external: true
+    family: Lato
+    size: 0.9
