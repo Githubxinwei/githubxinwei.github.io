@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP面试题
+title: php_interview_questions
 date: 2021-02-25
 categories: php
 tags: [php]
@@ -29,7 +29,7 @@ description: PHP面试题
 
 <div id="11">11.红黑树应用场景？</div>
 
-<div id="12">12.redis 哨兵机制</div>？
+<div id="12">12.redis 哨兵机制？</div>
 
 <div id="13">13.redis 有序集合是如何实现的？</div>
 
