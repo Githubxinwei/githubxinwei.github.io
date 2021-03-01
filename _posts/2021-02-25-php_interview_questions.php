@@ -36,3 +36,11 @@ description: PHP面试题
 <div id="14">14.redis 的事务存在的意义？</div>
 
 <div id="15">15.redis 删除策略及原理？</div>
+
+<div id="16">
+    16.PHP中public、protected、private的区别对比？
+    
+        public 表示全局，类内部外部子类都可以访问；
+        private表示私有的，只有本类内部可以使用；
+        protected表示受保护的，只有本类或子类或父类中可以访问
+</div>
