@@ -7,4 +7,4 @@ tags: [mysql]
 description: MySQL军规
 ---
 
-<a target="_blank" href="./../../../../../img/MySQL三十六条军规.pptx">MySQL三十六条军规</a>
+<a target="_blank" href="./../../../../../img/MySQL三十六条军规.pptx">点击下载：MySQL三十六条军规</a>
