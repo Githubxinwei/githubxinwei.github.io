@@ -45,7 +45,7 @@ description: PHP面试题
 </div>
 
 <div id="18">18.file()返回的数据类型？</div>
-
+            file()将文件中数据作为数组返回
 <div id="19">19.php常用的数组和字符串函数?</div>
 
 <div id="20">20.快速排序是怎么实现的，时间复杂度是什么？</div>
