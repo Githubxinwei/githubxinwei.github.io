@@ -45,7 +45,7 @@ description: PHP面试题
 </div>
 
 <div id="18">18.file()返回的数据类型？</div>
-            > file()将文件中数据作为数组返回
+    file()将文件中数据作为数组返回
 <div id="19">19.php常用的数组和字符串函数?</div>
 
 
@@ -58,3 +58,17 @@ description: PHP面试题
 <div id="23">23.公司的业务数据流程是什么样的？</div>
 
 <div id="24">24.yii框架查询是怎么查询的？</div>
+
+<div id="# #">25.linux常用命令</div>
+    cd
+    ls
+    cp
+    mv
+    rm
+    touch
+    mkdir
+    vim i wq
+    chmod
+    tar
+    kill
+    
