@@ -8,8 +8,8 @@ description: Codeigniter(CI)代码自动完成
 ---
 配置CI代码提示：
 
-    # <1>下载代码提示项目：
-    # https://github.com/topdown/phpStorm-CC-Helpers
+    <1>下载代码提示项目：
+    https://github.com/topdown/phpStorm-CC-Helpers
     <2>拷贝提示片段：
     将CI_phpStorm.php，DB_active_rec.php（改名为DB_query_builder.php），my_models.php拷贝到网站根目录，即index.php同目录下。
 
