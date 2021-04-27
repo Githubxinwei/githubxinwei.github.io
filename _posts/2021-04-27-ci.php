@@ -8,8 +8,8 @@ description: Codeigniter(CI)代码自动完成
 ---
 配置CI代码提示：
 
-    <1>下载代码提示项目：
-    https://github.com/topdown/phpStorm-CC-Helpers
+    # <1>下载代码提示项目：
+    # https://github.com/topdown/phpStorm-CC-Helpers
     <2>拷贝提示片段：
     将CI_phpStorm.php，DB_active_rec.php（改名为DB_query_builder.php），my_models.php拷贝到网站根目录，即index.php同目录下。
 
@@ -21,7 +21,7 @@ description: Codeigniter(CI)代码自动完成
     <4>实现model提示功能：
     把Model类在my_models.php的注释里添加，注意把类名首字母大写改为小写。这样Model就能提示了。
 
-    <5>实现view提示：  
+    <5>实现view提示：
     <?php
         /**
          * @see News::index()
