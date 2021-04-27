@@ -47,7 +47,11 @@ description: PHP面试题
 <div id="18">18.file()返回的数据类型？</div>
     file()将文件中数据作为数组返回
 <div id="19">19.php常用的数组和字符串函数?</div>
-
+array_push
+array_diff
+array_intersect
+array_keys
+array_values
 
 <div id="20">20.快速排序是怎么实现的，时间复杂度是什么？</div>
 
@@ -71,4 +75,18 @@ description: PHP面试题
     chmod
     tar
     kill
-    
+<div id="# #">mysql如何优化？</div>
+
+<div id="# #">http与https的区别？</div>
+
+<div id="# #">mysql事务的三大特性？</div>
+
+<div id="# #">事务隔离的四个级别？</div>
+
+<div id="# #">redis缓存雪崩、缓存穿透、缓存击穿的区别？以及如何解决？</div>
+
+<div id="# #">面向对象的三大特性有哪些，并解释其含义?</div>
+
+<div id="# #">主键索引与唯一索引、普通索引的区别？唯一索引与普通索引哪个更快？</div>
+
+<div id="# #">索引分为b+数索引和hash索引，有什么不同？</div>
