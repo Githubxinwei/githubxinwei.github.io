@@ -6,7 +6,7 @@ categories: CI
 tags: [CI]
 description: Codeigniter(CI)代码自动完成
 ---
-配置CI代码提示
+配置CI代码提示：
 
     <1>下载代码提示项目：
     https://github.com/topdown/phpStorm-CC-Helpers
@@ -21,15 +21,15 @@ description: Codeigniter(CI)代码自动完成
     <4>实现model提示功能：
     把Model类在my_models.php的注释里添加，注意把类名首字母大写改为小写。这样Model就能提示了。
 
-    <5>实现view提示：
-    <h2><?php
+    <5>实现view提示：  
+    <?php
         /**
          * @see News::index()
          * @var News $title
          * @var News $news
          */
         echo $title;
-        ?></h2>
+    ?>
     相应的controller类需要实现__toString()方法，就可以了。
 
     按住ctrl+鼠标左键，就可以看到他来自于哪个类（ctrl+q显示注释），如果点击函数名则可以导航到那个函数。
@@ -74,7 +74,7 @@ description: Codeigniter(CI)代码自动完成
 
     3、git配置
     将.idea添加到忽略清单。
-    
+
     4、拼写检查去掉
     project settings ---> inspections ---> spelling ---> Typo的勾去掉
     5、快捷键
