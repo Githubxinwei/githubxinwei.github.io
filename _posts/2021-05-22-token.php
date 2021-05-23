@@ -46,12 +46,17 @@ description: app接口设计之token的php实现
     <tr>（2）//下面是生成token方法代码：</tr>
 
     <?php
-        public static function settoken()
-        {
-            $str = md5(uniqid(md5(microtime(true)),true));  //生成一个不会重复的字符串
-            $str = sha1($str);  //加密
-            return $str;
-        }
+       # public static function settoken()
+
+       # {
+
+            # $str = md5(uniqid(md5(microtime(true)),true));  //生成一个不会重复的字符串
+
+            # $str = sha1($str);  //加密
+
+            # return $str;
+
+       # }
 
         //（3）下面是每个接口都必须调用的token验证代码，验证具体实现是在（4）
         $args['token'] = $_POST['token'];
