@@ -13,7 +13,7 @@
 </tr>
 <tr>
 	<td>出生地：商丘</td>               
-	<td>居住地：郑州</td>  
+	<td>居住地：上海</td>  
 </tr>
 <tr>
 	<td colspan="2">熟悉语言：php、html、div+css、jquery、javascript、easyui、layui、linux</td>
