@@ -44,8 +44,6 @@ description: app接口设计之token的php实现
 
 
     <tr>（2）//下面是生成token方法代码：</tr>
-
-    <?php
        # public static function settoken()
 
        # {
