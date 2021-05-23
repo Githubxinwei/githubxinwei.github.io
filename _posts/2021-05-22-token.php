@@ -6,43 +6,44 @@ categories: php
 tags: [php,token]
 description: app接口设计之token的php实现
 ---
+    <table>
+    <tr>app接口设计之token的php实现</tr>
 
-    app接口设计之token的php实现
-    1、首先说一句什么是接口：接口简单来说就是服务器端用来返回给其他程序或者客户端数据的桥梁
+    <tr>1、首先说一句什么是接口：接口简单来说就是服务器端用来返回给其他程序或者客户端数据的桥梁</tr>
 
-    2、接口的作用：根据固定参数返回固定数据，比如客户端传a=1，那么服务器端返回a的姓名，客户端传a=2，服务器端返回a的性别，而不会返回其他数据。
+    <tr>2、接口的作用：根据固定参数返回固定数据，比如客户端传a=1，那么服务器端返回a的姓名，客户端传a=2，服务器端返回a的性别，而不会返回其他数据。</tr>
 
-    3、signature签名的作用：保证接口与数据的安全
+    <tr>3、signature签名的作用：保证接口与数据的安全</tr>
 
-    4、token的作用：和PC登陆的session一样，作为用户进入的唯一票据
+    <tr>4、token的作用：和PC登陆的session一样，作为用户进入的唯一票据</tr>
 
-    例如：app与服务器端的接口、java与php之间不同程序的接口，这些接口一般通过json格式传输数据
+    <tr>例如：app与服务器端的接口、java与php之间不同程序的接口，这些接口一般通过json格式传输数据</tr>
 
-    所以为了保证移动端和服务端数据传输相对安全，需要对接口进行加密传输
+    <tr>所以为了保证移动端和服务端数据传输相对安全，需要对接口进行加密传输</tr>
 
-    1、token的设计目的：
-    因为APP端没有和PC端一样的session机制，所以无法判断用户是否登陆，以及无法保持用户状态，所以就需要一种机制来实现session，这就是token的作用，token是用户登陆的唯一票据，只要APP传来的token和服务器端一致，就能证明你已经登陆（就和你去看电影一样，需要买票，拿着票就能进了）
+    <tr>1、token的设计目的：</tr>
 
-    2、token设计时的种类：
-    （1）第三方登陆型：这种token形如微信的access_token，设计原理是按照OAuth2.0来的，其特点是定时刷新（比如两小时刷新），目的是因为数据源将登陆权限赋予第三方服务器时必须要控制其有效期和权限，要不然第三方服务器可以不经过用户同意，无限期从数据源服务器获取用户任意数据
+    <tr>因为APP端没有和PC端一样的session机制，所以无法判断用户是否登陆，以及无法保持用户状态，所以就需要一种机制来实现session，这就是token的作用，token是用户登陆的唯一票据，只要APP传来的token和服务器端一致，就能证明你已经登陆（就和你去看电影一样，需要买票，拿着票就能进了）</tr>
 
-    （2）APP自用登陆型：这种token就是一般的APP用的token，因为不经过第三方，而是用户直接取数据源服务器数据，所以设计比较随意，只需要保证其token的唯一性就行
+    <tr>2、token设计时的种类：</tr>
+    <tr>（1）第三方登陆型：这种token形如微信的access_token，设计原理是按照OAuth2.0来的，其特点是定时刷新（比如两小时刷新），目的是因为数据源将登陆权限赋予第三方服务器时必须要控制其有效期和权限，要不然第三方服务器可以不经过用户同意，无限期从数据源服务器获取用户任意数据</tr>
 
-    3、APP自用登陆型token实现步骤：
-    （1）数据库用户表添加token字段和time_out这个token过期时间字段
-    （2）用户登陆时（注册时自动登陆也需要）生成一个token和过期时间存入表中
-    （3）在其他接口调用前，判断token是否正确，正确则继续，错误则让用户重新登陆
+    <tr>（2）APP自用登陆型：这种token就是一般的APP用的token，因为不经过第三方，而是用户直接取数据源服务器数据，所以设计比较随意，只需要保证其token的唯一性就行</tr>
 
-    4、APP自用登陆型token实现代码（公司自用框架及逻辑，主要看逻辑，不要直接复制代码）：
+    <tr>3、APP自用登陆型token实现步骤：</tr>
+    <tr>（1）数据库用户表添加token字段和time_out这个token过期时间字段</tr>
+    <tr>（2）用户登陆时（注册时自动登陆也需要）生成一个token和过期时间存入表中</tr>
+    <tr>（3）在其他接口调用前，判断token是否正确，正确则继续，错误则让用户重新登陆</tr>
 
-    复制代码
-    （1）//下面是用户登陆时把token插入数据库的代码
-    $logininfo['token'] = appuser::settoken();
-    $time_out = strtotime("+7 days");
-    db::setByPk('u_adver', array('token1' => $logininfo['token'], 'time_out' => $time_out), $logininfo['id']);
+    <tr>4、APP自用登陆型token实现代码（公司自用框架及逻辑，主要看逻辑，不要直接复制代码）：</tr>
+
+    <tr>（1）//下面是用户登陆时把token插入数据库的代码</tr>
+    <tr>$logininfo['token'] = appuser::settoken();</tr>
+    <tr>$time_out = strtotime("+7 days");</tr>
+    <tr>db::setByPk('u_adver', array('token1' => $logininfo['token'], 'time_out' => $time_out), $logininfo['id']);</tr>
 
 
-    （2）//下面是生成token方法代码：
+    <tr>（2）//下面是生成token方法代码：</tr>
 
     <?php
         public static function settoken()
@@ -78,4 +79,4 @@ description: app接口设计之token的php实现
             }
             return 90002;  //token错误验证失败
         }
-        ?>
+        <a href="https://www.cnblogs.com/panziwen/p/10562682.html">原文链接</a>
