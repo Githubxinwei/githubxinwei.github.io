@@ -1,7 +1,7 @@
 <table>
 <tr>
 	<td>网名：thinkwei</td>             
-	<td>职业：PHP开发工程师</td>
+	<td>职业：高级PHP开发工程师</td>
 </tr>
 <tr>
 	<td>学历：本科</td>
