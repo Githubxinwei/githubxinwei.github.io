@@ -22,7 +22,7 @@ header-img: "img/bjd.jpg"
 	<td>居住地：上海</td>  
 </tr>
 <tr>
-	<td colspan="2">熟悉语言：php、html、div+css、jquery、javascript、easyui、layui、linux</td>
+	<td colspan="2">熟悉语言：php、html、div+css、jquery、javascript、easyui、layui、weui、linux</td>
 </tr>
 <tr>
 	<td colspan="2">熟悉框架：thinkphp5、yii2、ci</td>
