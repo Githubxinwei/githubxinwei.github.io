@@ -1,13 +1,3 @@
-<?php
-/*
-* Created by PhpStorm
-* User: Xin Wei
-* Date: 2021/8/5 0005 
-* Time: 13:44
-* Desc:国家及地区MySQL数据
-*/
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 ---
 layout: post
 title: 国家及地区MySQL数据
