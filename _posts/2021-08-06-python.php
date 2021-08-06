@@ -13,3 +13,4 @@ $html = file_get_contents("https://blog.csdn.net/qq_37555071/article/details/114
 // 通过 php 的 file_get_contents 函数获取百度首页源码，并传给 $html 变量
 echo $html;
 // 输出 $html
+?>
