@@ -46,7 +46,6 @@ description: 最新IDE激活方式（所有IDE均适用）
     <link href="https://mdap.yuque.com" rel="dns-prefetch" />
     <meta name="baidu-site-verification" content="WGwq1qW6TC" />
 
-
     <meta name="renderer" content="webkit">
     <script>
         window._macaca_runtime_collector = [];
@@ -102,8 +101,6 @@ description: 最新IDE激活方式（所有IDE均适用）
         });
     </script>
 
-
-
 </head>
 <body>
 
@@ -117,8 +114,6 @@ description: 最新IDE激活方式（所有IDE均适用）
 <script>
     performance && performance.mark && performance.mark("start-js-render");
 </script>
-
-
 
 <script>
     // 监听 window.onload 是否执行，用于组件中执行 onload 后续事件
@@ -139,11 +134,20 @@ description: 最新IDE激活方式（所有IDE均适用）
                             var url = isPublic ? 'https://www.yuque.com/yuque/topics/new' : 'https://yuque.antfin.com/lark/topics/new';
 
                             var html = '<div>';
-                            html += '<h3 style="margin-top: 45%;text-align: center;">页面打不开？快来找开发 GG 帮忙</h3>';
+                            html += '
+
+                            ### 页面打不开？快来找开发 GG 帮忙
+                            ';
                             if (appData.traceId) {
-                                html += '<p style="padding: 10px 30px;">反馈信息: ' + appData.traceId + '</p>';
+                                html += '
+
+                                反馈信息: ' + appData.traceId + '
+                                ';
                             }
-                            html += '<p style="padding: 10px 30px;">截图或复制反馈信息到: <a target="_blank" href="' + url + '">' + url + '</a></p>';
+                            html += '
+
+                            截图或复制反馈信息到: [' + url + ']()
+                            ';
                             html += '</div>';
                             html += '<button class="ant-btn" style="margin-top: 10px; margin-left: 30px; padding: 0 15px;" onclick="location.reload();">刷新页面</button>';
                             rootNode.innerHTML = html;
@@ -200,22 +204,16 @@ description: 最新IDE激活方式（所有IDE均适用）
 <script crossorigin src="https://b.alicdn.com/s/polyfill.min.js?features=default,es2015,es2016,es2017,fetch,IntersectionObserver,NodeList.prototype.forEach,NodeList.prototype.@@iterator,EventSource,MutationObserver,ResizeObserver,HTMLCanvasElement.prototype.toBlob,Promise.prototype.finally,Object.values|always"></script>
 <script crossorigin src="https://gw.alipayobjects.com/os/lib/??react/16.13.1/umd/react.production.min.js,react-dom/16.13.1/umd/react-dom.production.min.js,react-dom/16.13.1/umd/react-dom-server.browser.production.min.js,moment/2.24.0/min/moment.min.js"></script>
 
-
-
 <script crossorigin src="https://gw.alipayobjects.com/as/g/larkgroup/lake-codemirror/6.0.2/CodeMirror.js"></script>
-
-
 
 <script>
     window.routerBase = '/';
     window.resourceBaseUrl = 'https://gw.alipayobjects.com/os/chair-script/skylark/';
 </script>
 
-
 <script>window.__webpack_public_path__ = '/os/chair-script/skylark/';</script><script crossorigin src="https://gw.alipayobjects.com/os/chair-script/skylark/common.ae81fcb6.async.js"></script>
 
 <script crossorigin src="https://gw.alipayobjects.com/os/chair-script/skylark/pc.54896c95.js"></script>
-
 
 <script>
     // 加载九色鹿埋点脚本、cnzz 埋点脚本
@@ -226,7 +224,6 @@ description: 最新IDE激活方式（所有IDE均适用）
             var n=e.createElement(a),s=e.getElementsByTagName(a)[0];
             n.async=!0,n.src=r,s.parentNode.insertBefore(n,s)}
 
-
         (window,document,'script','https://ur.alipay.com/tracert_a385.js','Tracert');
         Tracert.start({
             spmAPos: 'a385',
@@ -235,15 +232,11 @@ description: 最新IDE激活方式（所有IDE均适用）
             role_id: '240676',
             mdata: {
 
-
                 group_id: appData.group.id,
-
 
                 book_id: appData.book.id,
 
-
                 doc_id: appData.doc.id,
-
 
             },
         });
@@ -259,8 +252,6 @@ description: 最新IDE激活方式（所有IDE均适用）
     });
 </script>
 
-
-
 <script crossorigin src="https://gw.alipayobjects.com/os/lib/alipay/yuyan-monitor-web/2.0.29/dist/index.umd.min.js"></script>
 <script>
     window.yuyanMonitor = new YuyanMonitor({
@@ -268,15 +259,10 @@ description: 最新IDE激活方式（所有IDE均适用）
 
         env: '外网',
 
-
         userId: 'thinkwei',
         plugins: ['performance']
     });
 </script>
-
-
-
-
 
 </body>
 </html>
