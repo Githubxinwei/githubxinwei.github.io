@@ -64,3 +64,6 @@ font:
     external: true
     family: Lato
     size: 0.9
+
+#摘录
+excerpt_separator: " \n\n\n\n "
