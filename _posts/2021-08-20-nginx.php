@@ -7,6 +7,9 @@ tags: [nginx,phpstudy]
 description: phpstudy重启之后出现Nginx报错CreateFile failed
 ---
 
+* content
+{:toc}
+
 ```js
 phpstudy nginx环境,nginx报错日志如下:
 
