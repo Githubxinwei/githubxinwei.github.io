@@ -1,13 +1,3 @@
-<?php
-/*
-* Created by PhpStorm
-* User: Xin Wei
-* Date: 2021/8/20 0020 
-* Time: 10:35
-* Desc:
-*/
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 ---
 layout: post
 title: phpstudy重启 Nginx报错CreateFile failed
