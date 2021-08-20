@@ -7,7 +7,8 @@ tags: [nginx,phpstudy]
 description: phpstudy重启之后出现Nginx报错CreateFile failed
 ---
 
-* phpstudy nginx环境,nginx报错日志如下:
+```js
+phpstudy nginx环境,nginx报错日志如下:
 
 2020/04/13 15:40:33 [error] 7844#14252: *7 CreateFile() "D:/phpstudy_pro/WWW/lvblog/public/error/404.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: lvblog, request: "GET /note HTTP/1.1", host: "lvblog", referrer: "http://lvblog/"
 在vhost.conf添加配置：（如果请求路径不存在则重写）
@@ -39,4 +40,4 @@ include        fastcgi_params;
 }
 }
 重启wnmp
-{:toc}
+```
