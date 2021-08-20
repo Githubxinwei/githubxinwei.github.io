@@ -5,6 +5,7 @@ date: 2021-08-20
 categories: nginx
 tags: [nginx,phpstudy]
 description: phpstudy重启之后出现Nginx报错CreateFile failed
+mathjax: true
 ---
 
 * content
