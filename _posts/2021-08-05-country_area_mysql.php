@@ -7,9 +7,9 @@ tags: [mysql]
 description: 国家及地区MySQL数据
 ---
 
-<p>建表</p>
-
-<pre><code>CREATE TABLE `world_map` (
+<pre><code>
+        建表
+CREATE TABLE `world_map` (
 `id` int(11) NOT NULL,
 `name` varchar(50) DEFAULT NULL,
 `code` char(4) DEFAULT NULL,
