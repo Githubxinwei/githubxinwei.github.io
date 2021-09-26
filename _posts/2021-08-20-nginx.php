@@ -40,3 +40,5 @@ include        fastcgi_params;
 }
 }
 重启wnmp
+
+<a href="https://blog.csdn.net/sinat_41818709/article/details/105490289">本地摘自此处</a>
