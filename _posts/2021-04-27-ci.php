@@ -6,9 +6,10 @@ categories: CI
 tags: [CI]
 description: Codeigniter(CI)代码自动完成
 ---
-<p>配置CI代码提示：</p>
 
-<pre><code>&lt;1&gt;下载代码提示项目：
+<pre><code>
+<div style="text-align: center"><b>配置CI代码提示</b></div>
+&lt;1&gt;下载代码提示项目：
 https://github.com/topdown/phpStorm-CC-Helpers
 &lt;2&gt;拷贝提示片段：
 将CI_phpStorm.php，DB_active_rec.php（改名为DB_query_builder.php），my_models.php拷贝到网站根目录，即index.php同目录下。
