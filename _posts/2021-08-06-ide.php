@@ -21,21 +21,21 @@ description: 最新IDE激活方式（所有IDE均适用）
 下载插件：https://www.yuque.com/u30882/rx39g7/dhe52q
     <img src="./../../../../../img/zip.png">
 然后将这个插件直接扔进工作区，界面就就是下图的样子
-    <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088521-ff08331c-5fbf-4321-9d2c-49c0b2360c3b.png?x-oss-process=image%2Fresize%2Cw_752%2Climit_0">
+    <img src="./../../../../../img/revert1.png">
 随后右下角就会出现这样的标识
-    <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088561-1cafa908-75b8-4abe-a6f9-e9e69a7117b9.png?x-oss-process=image%2Fresize%2Cw_709%2Climit_0">
+    <img src="./../../../../../img/revert2.png">
 点击右下角的Eval Reset会出现如下界面，将咔咔圈起来的地方打上√
-    <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088502-a5c8e5df-fded-4a9e-8573-a922747b0795.png?x-oss-process=image%2Fresize%2Cw_752%2Climit_0">
+    <img src="./../../../../../img/r3.png">
 然后点击Reset按钮即可
-    <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088479-b2039678-a58f-44f0-b30a-66a3bc0689ad.png?x-oss-process=image%2Fresize%2Cw_589%2Climit_0">
+    <img src="./../../../../../img/r4.png">
 接着会出现如下界面，提示IDE将会重新启动，询问确定恢复设置
-    <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088521-3544607d-ac04-442c-b929-9b1a6965f53b.png?x-oss-process=image%2Fresize%2Cw_672%2Climit_0">
+    <img src="./../../../../../img/r5.png">
 点击确定即可，然后IDE就会重启，就可以开心的玩耍了。
 
 今天是8/6号，激活到了9/7号，查看是否完成激活在明天就可以看到激活时间会延长一天，所有的操作都是无形之中的，不必每次操作。
 
 从而达到无限使用的效果。
-    <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088822-c8f7bcd9-b0a1-4184-9967-0fdaba682e85.png?x-oss-process=image%2Fresize%2Cw_640%2Climit_0">
+    <img src="./../../../../../img/phpstrom.png">
     </code>
 </pre>
 
