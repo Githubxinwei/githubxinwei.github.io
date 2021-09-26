@@ -19,7 +19,7 @@ description: 最新IDE激活方式（所有IDE均适用）
 咔咔不建议修改host文件作为激活方式，试用host激活方式会出现很多问题，如果你想使用就自寻方法哈！
 
 下载插件：https://www.yuque.com/u30882/rx39g7/dhe52q
-    <img src="img/zip.png">
+    <img src="./../../../../../img/zip.png">
 然后将这个插件直接扔进工作区，界面就就是下图的样子
     <img src="https://cdn.nlark.com/yuque/0/2021/png/130812/1618198088521-ff08331c-5fbf-4321-9d2c-49c0b2360c3b.png?x-oss-process=image%2Fresize%2Cw_752%2Climit_0">
 随后右下角就会出现这样的标识
