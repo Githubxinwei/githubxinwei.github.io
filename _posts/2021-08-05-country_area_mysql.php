@@ -8,7 +8,7 @@ description: 国家及地区MySQL数据
 ---
 
 <pre><code>
-        建表
+<p>建表</p>
 CREATE TABLE `world_map` (
 `id` int(11) NOT NULL,
 `name` varchar(50) DEFAULT NULL,
@@ -17,8 +17,7 @@ CREATE TABLE `world_map` (
 `layer` smallint(6) DEFAULT NULL,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
-        <p>国家</p>
-
+<p>国家</p>
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (1, &#39;中国&#39;, &#39;CHN&#39;, 301, 2);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (2, &#39;阿尔巴尼亚&#39;, &#39;ALB&#39;, 302, 2);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (3, &#39;阿尔及利亚&#39;, &#39;DZA&#39;, 303, 2);
@@ -261,8 +260,7 @@ INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (239, &#39
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (240, &#39;直布罗陀&#39;, &#39;GIB&#39;, 302, 2);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (241, &#39;智利&#39;, &#39;CHL&#39;, 305, 2);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (242, &#39;中非共和国&#39;, &#39;CAF&#39;, 303, 2);
-        <p>七大洲</p>
-
+<p>七大洲</p>
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (301, &#39;亚洲&#39;, NULL, 0, 1);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (302, &#39;欧洲&#39;, NULL, 0, 1);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (303, &#39;非洲&#39;, NULL, 0, 1);
@@ -270,8 +268,7 @@ INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (304, &#39
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (305, &#39;南美洲&#39;, NULL, 0, 1);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (306, &#39;大洋洲&#39;, NULL, 0, 1);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (307, &#39;南极洲&#39;, NULL, 0, 1);
-        <p>中国地区划分</p>
-
+<p>中国地区划分</p>
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100001, &#39;华北&#39;, NULL, 1, 3);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100002, &#39;东北&#39;, NULL, 1, 3);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100003, &#39;华东&#39;, NULL, 1, 3);
@@ -279,8 +276,7 @@ INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100004, &
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100005, &#39;西南&#39;, NULL, 1, 3);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100006, &#39;西北&#39;, NULL, 1, 3);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (100007, &#39;港澳台&#39;, NULL, 1, 3);
-        <p>国内省直辖市</p>
-
+<p>国内省直辖市</p>
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (110000, &#39;北京&#39;, NULL, 100001, 4);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (120000, &#39;天津&#39;, NULL, 100001, 4);
 INSERT INTO `world_map` (`id`, `name`, `code`, `pid`, `layer`) VALUES (130000, &#39;河北&#39;, NULL, 100001, 4);
