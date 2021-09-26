@@ -24,7 +24,10 @@ weibo_username: 3944733010
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
+#markdown: kramdown
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rouge
 permalink: pretty
 paginate: 8
