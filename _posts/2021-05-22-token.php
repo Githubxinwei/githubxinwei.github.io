@@ -7,10 +7,9 @@ tags: [php,token]
 description: app接口设计之token的php实现
 ---
 
-<p>app接口设计之token的php实现</p>
-
 <pre><code>
-#### app接口设计之token的php实现
+        
+<b>app接口设计之token的php实现</b>
 
 1、首先说一句什么是接口：接口简单来说就是服务器端用来返回给其他程序或者客户端数据的桥梁
 
