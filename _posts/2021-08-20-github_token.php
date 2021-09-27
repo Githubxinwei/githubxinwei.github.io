@@ -1,10 +1,10 @@
 ---
 layout: post
-title: github新的提交方式-token
+title: github新的token提交方式
 date: 2021-09-27
 categories: github
 tags: [github,token]
-description: github新的提交方式-token
+description: github新的token提交方式
 ---
 
 <pre>
