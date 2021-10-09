@@ -17,7 +17,6 @@ description: 25个常用的正则表达式
 
         const phoneStr2 = '17283017203897'
         console.log(phoneReg.test(phoneStr2)) // false
-        复制代码
         2、身份证的校验
         const sfzReg = /^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$/
 
@@ -26,7 +25,6 @@ description: 25个常用的正则表达式
 
         const sfzStr2 = '718381298381212183'
         console.log(sfzReg.test(sfzStr2)) // false
-        复制代码
         3、邮箱的校验
         const emailReg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
 
@@ -37,7 +35,6 @@ description: 25个常用的正则表达式
 
         const noEmail = '72873213.com'
         console.log(emailReg.test(noEmail)) // false
-        复制代码
         4、URL的校验
         const urlReg = /^((https?|ftp|file):\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
@@ -46,7 +43,6 @@ description: 25个常用的正则表达式
 
         const urlStr2 = 'sss://haha.sunshine.com/xxx/xxx'
         console.log(urlReg.test(urlStr2)) // false
-        复制代码
         5、IPv4的校验
         const ipv4Reg = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/
 
@@ -55,7 +51,6 @@ description: 25个常用的正则表达式
 
         const ipv4Str2 = '122.12.56.655'
         console.log(ipv4Reg.test(ipv4Str2)) // false
-        复制代码
         6、16进制颜色的校验
         const color16Reg = /^#?([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$/
 
@@ -64,7 +59,6 @@ description: 25个常用的正则表达式
 
         const color16Str2 = '#1234567'
         console.log(color16Reg.test(color16Str2)) // false
-        复制代码
         7、日期 YYYY-MM-DD
         const dateReg = /^\d{4}(\-)\d{1,2}\1\d{1,2}$/
 
@@ -73,7 +67,6 @@ description: 25个常用的正则表达式
 
         const dateStr2 = '2021-01-01 1'
         console.log(dateReg.test(dateStr2)) // false
-        复制代码
         8、日期 YYYY-MM-DD hh:mm:ss
         const dateReg = /^(\d{1,4})(-|\/)(\d{1,2})\2(\d{1,2}) (\d{1,2}):(\d{1,2}):(\d{1,2})$/
 
@@ -82,7 +75,6 @@ description: 25个常用的正则表达式
 
         const dateStr2 = '2021-10-10 16:'
         console.log(dateReg.test(dateStr2)) // false
-        复制代码
         9、整数的校验
         const intReg = /^[-+]?\d*$/
 
@@ -91,13 +83,11 @@ description: 25个常用的正则表达式
 
         const intNum2 = 12345.1
         console.log(intReg.test(intNum2)) // false
-        复制代码
         10、小数的校验
         const floatReg = /^[-\+]?\d+(\.\d+)?$/
 
         const floatNum = 1234.5
         console.log(floatReg.test(floatNum)) // true
-        复制代码
         11、保留n位小数
         function checkFloat(n) {
           return new RegExp(`^([1-9]+[\d]*(.[0-9]{1,${n}})?)$`)
@@ -113,7 +103,6 @@ description: 25个常用的正则表达式
 
         const floatNum3 = 1234.555
         console.log(floatReg.test(floatNum3)) // false
-        复制代码
         12、邮政编号的校验
         const postalNoReg = /^\d{6}$/
 
@@ -122,7 +111,6 @@ description: 25个常用的正则表达式
 
         const postalNoStr2 = '5220000'
         console.log(postalNoReg.test(postalNoStr2)) // false
-        复制代码
         13、QQ号的校验
         说明：5-11位数字
         const qqReg = /^[1-9][0-9]{4,10}$/
@@ -132,7 +120,6 @@ description: 25个常用的正则表达式
 
         const qqStr2 = '191580163333'
         console.log(qqReg.test(qqStr2)) // false
-        复制代码
         14、微信号的校验
         说明：6至20位，以字母开头，字母，数字，减号，下划线
         const wxReg = /^[a-zA-Z]([-_a-zA-Z0-9]{5,19})+$/
@@ -142,7 +129,6 @@ description: 25个常用的正则表达式
 
         const wxStr2 = '厉害了我的vx'
         console.log(wxReg.test(wxStr2)) // false
-        复制代码
         15、车牌号的校验
         const carNoReg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-Z0-9]{4}[A-Z0-9挂学警港澳]{1}$/
 
@@ -151,7 +137,6 @@ description: 25个常用的正则表达式
 
         const carNoStr2 = '广东A12345'
         console.log(carNoReg.test(carNoStr2)) // false
-        复制代码
         16、只含字母的字符串
         const letterReg = /^[a-zA-Z]+$/
 
@@ -160,7 +145,6 @@ description: 25个常用的正则表达式
 
         const letterStr2 = 'sunshine_Lin'
         console.log(letterReg.test(letterStr2)) // false
-        复制代码
         17、包含中文的字符串
         const cnReg = /[\u4E00-\u9FA5]/
 
@@ -169,7 +153,6 @@ description: 25个常用的正则表达式
 
         const cnStr2 = 'sunshine_Lin'
         console.log(cnReg.test(cnStr2)) // false
-        复制代码
         18、密码强度的校验
         说明：密码中必须包含字母、数字、特称字符，至少8个字符，最多30个字符
         const passwordReg = /(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,30}/
@@ -179,7 +162,6 @@ description: 25个常用的正则表达式
 
         const password2 = 'sunshineLin12345'
         console.log(passwordReg.test(password2)) // false
-        复制代码
         19、字符串长度n的校验
         function checkStrLength(n) {
           return new RegExp(`^.{${n}}$`)
@@ -193,7 +175,6 @@ description: 25个常用的正则表达式
 
         const str2 = 'hhhhh'
         console.log(lengthReg.test(str2)) // false
-        复制代码
         20、文件拓展名的校验
         function checkFileName (arr) {
           arr = arr.map(name => `.${name}`).join('|')
@@ -210,7 +191,6 @@ description: 25个常用的正则表达式
         console.log(filenameReg.test(filename3)) // true
         const filename4 = 'sunshine.md'
         console.log(filenameReg.test(filename4)) // false
-        复制代码
         21、匹配img和src
         const imgReg = /<img.*?src=[\"|\']?(.*?)[\"|\']?\s.*?>/ig
 
@@ -232,7 +212,6 @@ description: 25个常用的正则表达式
         //   input: "<div></div><img src="sunshine.png" /><img src="sunshine111.png" />",
         //   groups: undefined
         // ]
-        复制代码
         22、匹配html中的注释
         const noteReg = /<!--(.*?)-->/g
 
@@ -254,7 +233,6 @@ description: 25个常用的正则表达式
         //   input: "<!--一个div标签--> <div></div> <!--一个div标签--> <div></div>",
         //   groups: undefined
         // ]
-        复制代码
         23、匹配html中的style
         const styleReg = /style="[^=>]*"([(\s+\w+=)|>])/g
 
@@ -276,7 +254,6 @@ description: 25个常用的正则表达式
         //   input: "<div style="background:#000;"><span style="color:#fff"></span></div>",
         //   groups: undefined
         // ]
-        复制代码
         24、匹配html中的颜色
         const colorReg = /#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})/g
 
@@ -298,7 +275,6 @@ description: 25个常用的正则表达式
         //   input: "<div style="background:#000;"><span style="color:#fff"></span></div>",
         //   groups: undefined
         // ]
-        复制代码
         25、匹配htmlTag（html标签）
         const endReg = /<("[^"]*"|'[^']*'|[^'">])*>/g
 
