@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "The resume of thinkwei"
-header-img: "img/bjdwl.png"
+header-img: "img/bjd.jpg"
 ---
 <table>
 <tr>
