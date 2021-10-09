@@ -286,5 +286,6 @@ description: 25个常用的正则表达式
         console.log(endReg.exec(htmlStr))
         console.log(endReg.exec(htmlStr))
         console.log(endReg.exec(htmlStr))
+        <a href="https://juejin.cn/post/7016871226899431431">本文摘自掘金</a>
     </code>
 </pre>
