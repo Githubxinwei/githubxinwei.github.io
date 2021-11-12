@@ -1,12 +1,3 @@
-<?php
-/*
-* Created by PhpStorm
-* User: Xin Wei
-* Date: 2021/11/12 11:41 上午
-* Desc:laradock环境搭建
-*/
-defined('BASEPATH') or exit('No direct script access allowed');
-?>
 ---
 layout: post
 title: mac apple chip机器上的laradock环境搭建
