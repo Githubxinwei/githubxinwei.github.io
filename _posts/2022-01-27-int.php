@@ -68,4 +68,4 @@ description: int(1) 和 int(10) 有什么区别？资深开发竟然都理解错
     zerofill的作用一般可以用在一些编号相关的数字中，比如学生的编号 001 002 ... 999这种，如果mysql没有零填充的功能，但是你又要格式化输出等长的数字编号时，那么你只能自己处理了。
     </code>
 </pre>
-<a href="https://mp.weixin.qq.com/s/cOS_DqsMCk1xQdw5Zb3CyQ">上文摘自网络：</a>
+<a href="https://mp.weixin.qq.com/s/cOS_DqsMCk1xQdw5Zb3CyQ">上文摘自网络，请使用微信打开：https://mp.weixin.qq.com/s/cOS_DqsMCk1xQdw5Zb3CyQ</a>
