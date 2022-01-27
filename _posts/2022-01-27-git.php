@@ -10,6 +10,7 @@ description: 解决 Failed to connect to github.com port 443:connection timed ou
 <pre>
     <code>
         取消全局代理：
+        
         git config --global --unset http.proxy
 
         git config --global --unset https.proxy
