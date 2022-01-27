@@ -2,10 +2,11 @@
 layout: post
 title: 从河南郑州到上海的2021年总结
 date: 2022-01-08
-categories: 2021
-tags: [2021,2021总结]
+categories: life
+tags: [life]
 description: 从河南郑州到上海的2021年总结
 ---
+
 <pre>
     <code>
     从2019年年底新冠疫情的爆发，到至今已经有两个年头多的时间。在2020 年底，参
