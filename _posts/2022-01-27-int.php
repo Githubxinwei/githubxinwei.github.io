@@ -5,7 +5,7 @@ date: 2022-01-27
 categories: mysql
 tags: [mysql]
 description: int(1) 和 int(10) 有什么区别？资深开发竟然都理解错了！
---
+---
 
 <pre>
     <code>
