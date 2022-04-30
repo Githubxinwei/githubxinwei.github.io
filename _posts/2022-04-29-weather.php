@@ -1,3 +1,11 @@
+---
+layout: post
+title: 每日天气
+date: 2022-04-30
+categories: weather
+tags: [weather]
+description: 每日天气
+---
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
