@@ -13,7 +13,17 @@ description: mac apple chip机器上的laradock环境搭建
         2.把laradock克隆下来：git clone https://github.com/Laradock/laradock.git。
         3.进入laradock目录运行：cp .env.example .env。
         4.运行容器：docker-compose up -d nginx mysql phpmyadmin redis workspace 。
-          注意mac apple chip机器上需要单独安装mysql：docker run --platform linux/x86_64 --network test --name database -p 3306:3306 -d -e MYSQL_ROOT_PASSWORD=root --restart=always -v ~/data/mysql:/var/lib/mysql mysql:5.7。
+          注意mac apple chip机器上需要单独安装mysql：
+            通过homebrew安装
+            brew install mysql@5.7
+            配置环境变量
+            echo 'export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+            source ~/.zshrc
+            安装成功之后查看版本
+            mysql --version
+            登录数据库并设置初始密码 第一次登录不需要密码，直接回车就可以了。
+            mysql -uroot -p
+            mysql> set password for 'root'@'localhost'=password('你自己的密码');
         5.在.env文件中切换成需要的php版本：比如切换成php7.2 修改PHP_VERSION=7.2即可
         6.运行docker-compose build php-fpm（此处较慢，打开.env文件 设置 CHANGE_SOURCE=true 会好点）。
         7.运行docker-compose build workspace。
