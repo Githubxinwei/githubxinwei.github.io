@@ -21,7 +21,7 @@ description: mac apple chip机器上的laradock环境搭建
             source ~/.zshrc
             安装成功之后查看版本
             mysql --version
-            登录数据库并设置初始密码 第一次登录不需要密码，直接回车就可以了。
+            登录数据库并设置初始密码 第一次登录不需要密码，直接回车就可以了。(重启mysql：mysql.server start)
             mysql -uroot -p
             mysql> set password for 'root'@'localhost'=password('你自己的密码');
         5.在.env文件中切换成需要的php版本：比如切换成php7.2 修改PHP_VERSION=7.2即可
