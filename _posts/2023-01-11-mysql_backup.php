@@ -10,12 +10,11 @@ description: mysql_backup
 <pre>
     <code>
    1、写MySQL备份bat文件
-
-   @echo off
-set "yMd=%date:~,4%%date:~5,2%%date:~8,2%"
-set "hms=%time:~,2%%time:~3,2%%time:~6,2%"
-"D:\phpstudy_pro\Extensions\MySQL5.7.26\bin\mysqldump.exe" -uroot -proot db_name>D:/mysql_backup_%yMd%-%hms%.sql
-@echo on
+        @echo off
+            set "yMd=%date:~,4%%date:~5,2%%date:~8,2%"
+            set "hms=%time:~,2%%time:~3,2%%time:~6,2%"
+            "D:\phpstudy_pro\Extensions\MySQL5.7.26\bin\mysqldump.exe" -uroot -proot db_name>D:/mysql_backup_%yMd%-%hms%.sql
+        @echo on
 
    2、打开Windows的任务计划
 
