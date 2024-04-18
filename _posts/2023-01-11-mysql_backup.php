@@ -18,12 +18,12 @@ description: mysql_backup
 
    2、打开Windows的任务计划
 
-<img src="./../../../../../img/manage_tool.png" />
-<img src="./../../../../../img/plan.png" />
-<img src="./../../../../../img/create_plan.png" />
-<img src="./../../../../../img/mysql_backup.png" />
-<img src="./../../../../../img/set_time.png" />
-<img src="./../../../../../img/path.png" />
-<img src="./../../../../../img/confirm.png" />
+<img src="https://thinkwei.cn/img/manage_tool.png" />
+<img src="https://thinkwei.cn/img/plan.png" />
+<img src="https://thinkwei.cn/img/create_plan.png" />
+<img src="https://thinkwei.cn/img/mysql_backup.png" />
+<img src="https://thinkwei.cn/img/set_time.png" />
+<img src="https://thinkwei.cn/img/path.png" />
+<img src="https://thinkwei.cn/img/confirm.png" />
     </code>
 </pre>
