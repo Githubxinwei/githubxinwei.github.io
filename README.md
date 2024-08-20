@@ -22,9 +22,12 @@
 	<td colspan="2">熟悉框架：thinkphp5、yii2、ci</td>
 </tr>
 <tr>
-	<td colspan="2">熟悉数据库：mysql、mssql</td>
+	<td colspan="2">熟悉数据库：mysql、mssql,了解tidb、oceanbase</td>
 </tr>
 <tr>
 	<td colspan="2">版本控制：git、svn</td>
+</tr>
+<tr>
+	<td colspan="2">其它：laradock、docker、k8s、es、kafka、rabbitmq、redis、nacos、网关、限流等</td>
 </tr>
 </table>
